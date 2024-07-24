@@ -1,0 +1,19 @@
+begin ,n
+(what follows is the structure of an if)
+conditiontrue ,sif - begins if
+actions ,cif ,n - carry out statement if conditiontrue
+,eif ,n - close if
+(what follows is the structure of a preset function, the one to write)
+print(“Text”) ,n
+(what follows is instructions on how to set variables and lists)
+varname ,var  ,n
+listname ,list ,n
+varname -> newval ,set ,n
+list[idx] -> newval ,set ,n (set to new value)
+list[idx] -> value ,aft , n (append, add-after idx)
+list[idx] ,rem ,n (remove at idx)
+list[idx|idx] ,rem ,n (remove between)
+list[idx] ,end ,n (remove all after idx)
+list[idx] ,rcl ,n (recall at idx)
+list[idx|idx] ,rcl ,n (recall between)
+list[idx|idx|step] ,rcl ,n (recall w. step)
