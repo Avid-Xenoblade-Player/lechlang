@@ -1,3 +1,1 @@
-conditiontrue ,sif ##begins if
-actions ,cif ,n ##carry out statement if conditiontrue
-,eif ,n ##close if
+i.si.cond,sici.actions,ci,n,i,n 
