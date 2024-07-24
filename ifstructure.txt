@@ -1,0 +1,3 @@
+conditiontrue ,sif ##begins if
+actions ,cif ,n ##carry out statement if conditiontrue
+,eif ,n ##close if
