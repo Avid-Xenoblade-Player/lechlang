@@ -1,0 +1,11 @@
+varname ,var  ,n
+listname ,list ,n
+varname -> newval ,set ,n
+list[idx] -> newval ,set ,n (set to new value)
+list[idx] -> value ,aft , n (append, add-after idx)
+list[idx] ,rem ,n (remove at idx)
+list[idx|idx] ,rem ,n (remove between)
+list[idx] ,end ,n (remove all after idx)
+list[idx] ,rcl ,n (recall at idx)
+list[idx|idx] ,rcl ,n (recall between)
+list[idx|idx|step] ,rcl ,n (recall w. step)
