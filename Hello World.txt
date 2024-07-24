@@ -1,1 +1,1 @@
-print(“Text”) ,n
+“Hello World”,w,n
