@@ -1,0 +1,14 @@
+a.functionname,a,n
+setact.actions,setact,n
+setpar.parameterone|int/str/bool,setpar,functionname,n
+setpar.parametertwo|int/str/bool,setpar,functionname,n
+(etc.)
+For instance, a function to write a user-input phrase four times:
+a.writefourtimes,a,n
+setpar.phrase|str,setpar,writefourtimes,n
+setact.phrase,wphrase,wphrase,wphrase,w,setact,n
+And how it is used:
+phrase,writefourtimes,n
+So, whatever you write instead of phrase, the console will output it four times.
+Code for writing ‘I am a cat’ four times:
+begin,na.writefourtimes,a,nsetpar.phrase|str,setpar,writefourtimes,nsetact.phrase,wphrase,wphrase,wphrase,w,setact,n”I am a cat”,writefourtimes,n
